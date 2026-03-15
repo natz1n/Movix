@@ -29,3 +29,15 @@ button {
 p {
     margin-top: 20px;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.imagem-centro {
+    display: block;
+    margin: 150px auto 20px auto;
+    width: 250px;
+}
