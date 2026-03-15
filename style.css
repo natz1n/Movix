@@ -1,120 +1,35 @@
-*{
-    margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-#titulosuperior{
-    margin-left: 50px;
-    padding-top: 150px;
-    font-size: 75px;
-    letter-spacing: -1.5px;
-}
-
-#textosuperior{
-    margin-left: 50px;
-    margin-top: 35px;
-    padding-bottom: 150px;
-    font-size: 25px;
-    letter-spacing: 0px;
-}
-
-
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
-
-
-#menusuperior{
-    background-color: #C2F0EC;
-    color: #1e2122;
-}
-
-#menuinformativo{
-    background-color: #c7c7c7;
-    display: grid;
-    grid-auto-flow: column;
-    columns: auto;
-}
-
-.textoinformativo{
-    display: grid;
-    align-items: center;
-    font-size: 40px;
-    font-weight: bolder;
-    padding: 75px;
-    margin-left: 20px;
-}
-
-.spaninformativo{
-    font-size: 20px;
-    font-weight: normal;
-}
-
-#menuconteudo{
-    background-color: #777777;
-    display: grid;
-    grid-auto-flow: column;
-    columns: auto;
-}
-
-#image{
-    margin:100px 25px 100px 100px;
-}
-
-#textoconteudo{
-    text-align: justify;
-    font-size: 40px;
-    font-weight: bolder;
-    margin: 260px 25px 50px 100px;
-}
-
-#image, #textoconteudo, #formulario{
-    visibility: hidden;
-}
-
-#spanconteudo{
-    text-align: justify;
-    font-size: 24px;
-    font-weight: normal;
-}
-
-#formilario{
-    background-color: #ffffff;
+body {
+    font-family: Arial, sans-serif;
     text-align: center;
+    background-color: #f4f4f4;
 }
 
-#tituloformulario{
-    font-size: 32px;
-    padding: 70px 70px 20px 70px;
-    color: black;
+h1 {
+    color: #333;
 }
 
-input{
-    width: 400px;
-    height: 60px;
-    background-color: rgb(43, 43, 43);
-    margin: 25px;
-    border: 1px;
-    border-radius: 10px;
-    padding-left: 10px;
+input {
+    padding: 8px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
-button{
-    background-color: #242424;
-    height: 70px;
-    width: 220px;
-    color: #eaece5;
-    border: 0px;
-    border-radius: 10px;
-    margin-top: 50px;
-    margin-bottom: 100px;
-    font-weight: bolder;
-    font-size: 30px;
+button {
+    padding: 8px 15px;
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
 }
 
-button.hover{
-    background-color: #444444;
-    color: white;
-    transform: translateY(-3px);
-    box-shadow: 0px 10px 15px #a8a8a6;
-    transition-duration: 0.3s;
+button:hover {
+    background-color: #444;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #555;
 }
