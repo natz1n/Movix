@@ -1,35 +1,31 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #b4b4b4;
+    background-color: #f4f4f4;
 }
 
 h1 {
     color: #333;
 }
 
+.imagem-centro {
+    display: block;
+    margin: 20px auto;
+    width: 250px;
+}
+
 input {
     padding: 8px;
     margin: 10px;
-    border: 1px solid #000000;
-    border-radius: 5px;
 }
 
 button {
     padding: 8px 15px;
-    background-color: #000;
+    background-color: black;
     color: white;
     border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #615b5b;
 }
 
 p {
     margin-top: 20px;
-    font-size: 18px;
-    color: #555;
 }
